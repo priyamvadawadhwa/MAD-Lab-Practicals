@@ -1,0 +1,5 @@
+<resources>
+    <style name="exampleToast">
+        <item name="colorBackground">#595757</item>
+    </style>
+</resources>

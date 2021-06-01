@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MyApp</string>
+    <string name="txt_view1">Text View and Edit Text</string>
+    <string name="hint1">Type your message..</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="txt_view2">Toggle Button</string>
+    <string name="nxt_activity">Move to Next Activity</string>
+    <string name="txt_view3">Countries,States and Cities</string>
+    <string name="txt_view4">2. SELECT YOUR COUNTRY</string>
+    <string name="txt_view5">1. ARE YOU A HUMAN BEING?</string>
+    <string-array name="country" color="@color/black">
+        <item>Choose Country</item>
+        <item>USA</item>
+        <item>India</item>
+        <item>Australia</item>
+    </string-array>
+    <string name="txt_view6">3. STATE OF YOUR COUNTRY</string>
+    <string name="rdbtn_1">California</string>
+    <string name="rdbtn_2">Maharashtra</string>
+    <string name="rdbtn_3">Victoria</string>
+    <string name="txt_view7">4. CITY OF YOUR STATE</string>
+    <string name="chkbox_1">Melbourne</string>
+    <string name="chkbox_2">Los Angeles</string>
+    <string name="chkbox_3">Pune</string>
+    <string name="chkbox_4">Oakland</string>
+    <string name="chkbox_5">Mumbai</string>
+    <string name="chkbox_6">Portland</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="snapchat">Snapchat</string>
+    <string name="facebook">Facebook</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="youtube">YouTube</string>
+    <string name="netflix">Netflix</string>
+    <string name="telegram">Telegram</string>
+    <string name="prime">Prime Video</string>
+    <string name="pubg">PubG</string>
+    <string name="tinder">Tinder</string>
+</resources>

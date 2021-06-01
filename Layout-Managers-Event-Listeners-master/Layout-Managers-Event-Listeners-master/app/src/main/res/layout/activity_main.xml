@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_view1"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:id="@+id/edttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtview1"
+        android:layout_marginTop="24dp"
+        android:hint="@string/hint1"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/txtview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edttxt"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/txt_view2"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/togglebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtview2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="128dp"
+        android:checked="true"
+        android:textOff="@string/off"
+        android:textOn="@string/on" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nxt_activity"
+        android:layout_below="@id/txtview2"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>
